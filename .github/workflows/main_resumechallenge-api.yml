@@ -1,7 +1,8 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
 name: Deploy project to Azure Static Website - cloudresume
-
+permissions:
+      id-token: write
 on:
   push:
     branches:
